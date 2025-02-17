@@ -2,3 +2,4 @@ faiss-cpu
 openai
 langchain
 langchain
+langchain_openai
