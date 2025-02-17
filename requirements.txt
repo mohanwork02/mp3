@@ -3,3 +3,4 @@ openai
 langchain
 langchain
 langchain_openai
+langchain-community
