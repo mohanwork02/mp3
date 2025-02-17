@@ -13,8 +13,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set OpenAI API Key
-os.environ["OPENAI_API_KEY"] = "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"  # Replace with your key
-
+#os.environ["OPENAI_API_KEY"] = "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"  # Replace with your key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Function to transcribe audio file
 def transcribe_audio(audio_file):
     try:
